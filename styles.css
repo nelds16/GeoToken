@@ -1,0 +1,172 @@
+body{
+  background-image: url(images/background.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  padding-right: 50%;
+  color: #fff;
+}
+
+.navbar{
+  color: #fff;
+  padding-top: 50px;
+  font-size: 1rem;
+  top: 3%;
+}
+.navbar-nav{
+  padding-top: 0.3%;
+}
+
+.brand-title{
+  color: #fff;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.nav-link{
+  color: #fff;
+}
+.logo{
+  padding-top: 1px;
+  width: 50px;
+  cursor: pointer;
+}
+#first{
+    padding: inherit;
+    padding-bottom: 100px;
+}
+.bitcoin-logo{
+  width: 50px;
+  position: relative;
+  left:80px;
+  top: 55px;
+}
+.bitcoin p{
+  padding-left: 143px;
+  padding-top: 0px;
+  font-size: 40px;
+  color: #fff;
+}
+.bitcoin h1{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 10px;
+  color: #fff;
+
+}
+.table1{
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.table1 th{
+  border: 3px solid #f9e79f;
+  text-align: center;
+  color: #fff;
+}
+.bitcoin h2{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #fff;
+
+}
+#second{
+    padding: inherit;
+    padding-bottom: 100px;
+}
+.dogecoin-logo{
+  width: 50px;
+  position: relative;
+  left:80px;
+  top: 55px;
+}
+.dogecoin p{
+  padding-left: 143px;
+  padding-top: 0px;
+  font-size: 40px;
+  color: #fff;
+}
+.dogecoin h1{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 10px;
+  color: #fff;
+
+}
+.dogecoin h2{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #fff;
+
+}
+.table3{
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.table3 th{
+  border: 3px solid #f9e79f;
+  text-align: center;
+  color: #fff;
+}
+#third{
+    padding: inherit;
+    padding-bottom: 100px;
+}
+.ethereum-logo{
+  width: 50px;
+  position: relative;
+  left:80px;
+  top: 55px;
+}
+.ethereum p{
+  padding-left: 143px;
+  padding-top: 0px;
+  font-size: 40px;
+  color: #fff;
+}
+.ethereum h1{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 10px;
+  color: #fff;
+
+}
+.ethereum h2{
+  font-size: 30px;
+  padding-left: 80px;
+  padding-top: 20px;
+  color: #fff;
+
+}
+.table4{
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.table4 th{
+  border: 3px solid #f9e79f;
+  text-align: center;
+  color: #fff;
+}
+.third{
+  margin-bottom: 100px;
+}
+#footer{
+  background-color: #1c2833;
+  padding: 7% 14%;
+  text-align: center;
+  color: white;
+}
+
+.foot-icon{
+  color: white;
+  padding: 20px 10px;
+
+}

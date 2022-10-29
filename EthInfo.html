@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ETHinfo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+</head>
+
+<body src>
+
+  <!--nav bar-->
+
+  <nav class="navbar navbar-expand-lg" style="background-color: black">
+    <img src="images/logo.png" class="logo">
+    <p class="brand-title" href="">GeoToken</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#coin-table">Top List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">About us</a>
+        </li>
+      </ul>
+  </nav>
+  <!--Cryptobrand-->
+  <section id="first">
+    <div class="bitcoin">
+      <img src="images/bitcoin.png" alt="bitcoin" class="bitcoin-logo">
+      <p>Bitcoin</p>
+
+      <h1>Bitcoin Info in USD</h1>
+      <table class="table1" style="width:45%">
+        <tr style="background-color: #ff960b">
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>24 HR Trading Vol</th>
+          <th>24 Hr Trading Change</th>
+        </tr>
+
+        <tr>
+          <th>$ <span id="ubit"></span></th>
+          <th>$ <span id="bucap"></th>
+          <th>$ <span id="buvol"></th>
+          <th>$ <span id="buchg"></th>
+        </tr>
+
+      </table>
+
+      <h2>Bitcoin Info in PHP</h2>
+      <table class="table1" style="width:45%">
+        <tr style="background-color: #ff960b">
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>24 HR Trading Vol</th>
+          <th>24 Hr Trading Change</th>
+        </tr>
+
+        <tr>
+          <th>₱ <span id="pbit"></span></th>
+          <th>₱ <span id="bpcap"></th>
+          <th>₱ <span id="bpvol"></th>
+          <th>₱ <span id="bpchg"></th>
+        </tr>
+
+      </table>
+    </div>
+  </section>
+
+  <section id="second">
+    <div class="ethereum">
+      <img src="images/ethereum.png" alt="ethereum" class="ethereum-logo">
+      <p>Ethereum</p>
+
+      <h1>Ethereum Info in USD</h1>
+      <table class="table4" style="width:45%">
+        <tr style="background-color: #ff960b">
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>24 HR Trading Vol</th>
+          <th>24 Hr Trading Change</th>
+        </tr>
+
+        <tr>
+          <th>$ <span id="ueth"></span></th>
+          <th>$ <span id="eucap"></th>
+          <th>$ <span id="euvol"></th>
+          <th>$ <span id="euchg"></th>
+        </tr>
+      </table>
+
+      <h2>Ethereum Info in PHP</h2>
+      <table class="table1" style="width:45%">
+        <tr style="background-color: #ff960b">
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>24 HR Trading Vol</th>
+          <th>24 Hr Trading Change</th>
+        </tr>
+
+        <tr>
+          <th>₱ <span id="peth"></span></th>
+          <th>₱ <span id="epcap"></th>
+          <th>₱ <span id="epvol"></th>
+          <th>₱ <span id="epchg"></th>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <section id="third">
+    <div class="dogecoin">
+      <img src="images/dogecoin.png" alt="dogecoin" class="dogecoin-logo">
+      <p>Dogecoin</p>
+
+      <h1>Dogecoin Info in USD</h1>
+      <table class="table3" style="width:45%">
+        <tr style="background-color: #ff960b">
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>24 HR Trading Vol</th>
+          <th>24 Hr Trading Change</th>
+        </tr>
+
+        <tr>
+          <th>$ <span id="udog"></span></th>
+          <th>$ <span id="ducap"></th>
+          <th>$ <span id="duvol"></th>
+          <th>$ <span id="duchg"></th>
+        </tr>
+      </table>
+
+      <h2>Dogecoin Info in PHP</h2>
+      <table class="table1" style="width:45%">
+        <tr style="background-color: #ff960b">
+          <th>Price</th>
+          <th>Market Cap</th>
+          <th>24 HR Trading Vol</th>
+          <th>24 Hr Trading Change</th>
+        </tr>
+
+        <tr>
+          <th>₱ <span id="pdog"></span></th>
+          <th>₱ <span id="dpcap"></th>
+          <th>₱ <span id="dpvol"></th>
+          <th>₱ <span id="dpchg"></th>
+        </tr>
+
+      </table>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <a class="foot-icon fa-brands fa-twitter fa-2x fa-icon" href="https://www.twitter.com/"></a>
+    <a class="foot-icon fa-brands fa-facebook fa-2x fa-icon" href="https://www.facebook.com/nelds16/"></a>
+    <a class="foot-icon fa-brands fa-instagram fa-2x fa-icon" href="https://www.instagram.com/nelds16/"></a>
+    <a class="foot-icon fa-solid fa-envelope fa-2x fa-icon" href="mailto:delossantosleonel16@gmail.com"></a>
+    <p>© Copyright 2022 GeoToken</p>
+    <center><img src="images/logo.png" height="100" alt="logo.png" style="height:50px"></center>
+  </footer>
+  <script src="mainsample.js"></script>
+
+</body>
+
+</html>
